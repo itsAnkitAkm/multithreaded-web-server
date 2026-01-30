@@ -163,4 +163,27 @@ This significantly reduces response time for repeated requests.
 
 ### Cache latency comparison
 
-![alt text](images/cache.png) ![alt text](images/run.png)
+![cache](images/cache.png) ![cache](images/run.png)
+
+
+This shows a large improvement when responses are served directly from memory.
+
+
+---
+
+### Load testing
+
+The proxy was tested using **ApacheBench**.
+
+- Total requests: 50
+- Concurrency level: 5
+- Requests per second: ~800+
+- Mean request latency: ~1–2 ms
+
+The server remained stable under concurrent load.
+
+![ap](images/ap.png)
+
+---
+
+
