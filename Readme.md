@@ -163,4 +163,4 @@ This significantly reduces response time for repeated requests.
 
 ### Cache latency comparison
 
-![alt text](cache.png) ![alt text](run.png)
+![alt text](images/cache.png) ![alt text](images/run.png)
